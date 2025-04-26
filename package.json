@@ -1,10 +1,10 @@
 {
-  "name": "json-server-vercel",
+  "name": "sevens-json-server",
   "version": "1.0.0",
-  "description": "Deploy JSON Server to Vercel",
+  "description": "Deploy JSON Server to Render",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "json-server --watch /data/db.json --port $PORT"
   },
   "dependencies": {
     "cors": "^2.8.5",
